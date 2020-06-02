@@ -35,9 +35,9 @@ const Layout = ({ children }) => {
       >
         <main>{children}</main>
         <footer>
-          © {new Date().getFullYear()}, Built with
-          {` `}
-          <a href="https://www.gatsbyjs.org">Gatsby</a>
+          &copy; {new Date().getFullYear()} by Jeremy Nelson and Intro2Libsys LLC. All 
+          other material contributed and posted to stie is licensed under 
+          the <a href="https://creativecommons.org/licenses/by-nc-sa/4.0/">CC BY-NC-SA 4.0</a>
         </footer>
       </div>
     </>

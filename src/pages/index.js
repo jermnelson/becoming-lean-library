@@ -7,15 +7,13 @@ import SEO from "../components/seo"
 
 const IndexPage = () => (
   <Layout>
-    <SEO title="Home" />
-    <h1>Hi people</h1>
-    <p>Welcome to your new Gatsby site.</p>
-    <p>Now go build something great.</p>
-    <div style={{ maxWidth: `300px`, marginBottom: `1.45rem` }}>
-      <Image />
-    </div>
-    <Link to="/page-2/">Go to page 2</Link> <br />
-    <Link to="/using-typescript/">Go to "Using TypeScript"</Link>
+    <SEO title="Becoming a Lean Library" />
+    <h1>Lessons from the World of Technology Startups</h1>
+    <h2>by Jeremy Nelson</h2>
+    <p>Purchase you copy from <a href="https://www.elsevier.com/books/becoming-a-lean-library/nelson/978-1-84334-779-8">Elsevier</a>&nbsp; 
+    or <a href="https://www.amazon.com/Becoming-Lean-Library-Information-Professional/dp/1843347792">Amazon</a>. 
+</p>
+    <Link to="/book/">Book Chapters</Link> <br />
   </Layout>
 )
 
