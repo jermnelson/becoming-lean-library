@@ -15,17 +15,17 @@ const IndexPage = () =>  (
         <h3><em>Becoming a Lean Library</em> Table of Contents</h3>
         <ol>
           <li><Link to="/book/introduction">Introduction</Link></li>
-          <li><a href="{{ url_for('book', chapter='organizing-libraries') }}">Organizing Libraries</a></li>
+          <li><Link to="/book/organizing-libraries">Organizing Libraries</Link></li>
 		  <li>
 		  <a href="{{ url_for('book', chapter='pull-vs-push') }}">Pull verses Push: Lessons from Lean Manufacturing</a></li>
 		  <li>
-		  <a href="{{ url_for('book', chapter='bml-as-ooda-loop') }}">Build-Measure-Learn as an OODA Loop</a>
+		  <Link to='book/bml-as-ooda-loop/'>Build-Measure-Learn as an OODA Loop</Link>
 		  </li>
 		  <li>
-		  <a href="{{ url_for('book', chapter='innovation-accounting-francis-taylor') }}">Innovation Accounting and Francis Taylor</a></li>
+		  <Link to="book/innovation-accounting-francis-taylor">Innovation Accounting and Francis Taylor</Link></li>
 		  <li>
-		  <a href="{{ url_for('book', chapter='defining-hypothesis-managing-complexity') }}">
-				  Defining Hypothesis and Managing Complexity</a>
+		  <Link to="book/defining-hypothesis-managing-complexity">
+				  Defining Hypothesis and Managing Complexity</Link>
 		  </li>
 		  <li>
 		  <a href="{{ url_for('book', chapter='actionable-metrics-patron-activity') }}">Actionable Metrics from Patron Activity

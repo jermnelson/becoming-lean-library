@@ -36,7 +36,7 @@ const Layout = ({ children }) => {
         <main>{children}</main>
         <footer>
           &copy; {new Date().getFullYear()} by Jeremy Nelson and Intro2Libsys LLC. All 
-          other material contributed and posted to stie is licensed under 
+          other material contributed and posted to site is licensed under 
           the <a href="https://creativecommons.org/licenses/by-nc-sa/4.0/">CC BY-NC-SA 4.0</a>
         </footer>
       </div>
